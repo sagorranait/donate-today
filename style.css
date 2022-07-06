@@ -4,7 +4,61 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.donate-btn {
+  padding: 8px 20px;
+  background: #d71b4f;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
 
+.donate-d-flex {
+  display: flex;
+  align-items: center;
+}
 
+.donate-bg-white {
+  background-color: white;
+}
+
+.donate-container {
+  width: 1440px;
+  margin: 0 auto;
+}
 
 /* -------- General Css End -------- */
+
+/* -------- Banner Css Start -------- */
+.banner-contant {
+  width: 100%;
+  height: 670px;
+  background-image: url('./images/banner-bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner-contant h1 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 79px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.banner-contant p {
+  width: 600px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 15px 0 30px;
+}
+
+/* -------- Banner Css End -------- */

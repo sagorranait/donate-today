@@ -4,18 +4,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.donate-btn {
-  padding: 8px 20px;
-  background: #d71b4f;
-  border-radius: 5px;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration: none;
-  color: #FFFFFF;
-  border: none;
-}
-
 .donate-d-flex {
   display: flex;
   align-items: center;
@@ -27,6 +15,38 @@
 
 .donate-text-center {
   text-align: center;
+}
+
+.donate-title-area {
+  width: 100%;
+}
+
+.donate-title-area h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #121212;
+}
+
+.donate-title-area p {
+  width: 455px;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 28px;
+  color: #707070;
+  padding: 10px 0 50px;
+}
+
+.donate-btn {
+  padding: 8px 20px;
+  background: #d71b4f;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #FFFFFF;
+  border: none;
 }
 
 .donate-container {
@@ -67,3 +87,59 @@
 }
 
 /* -------- Banner Css End -------- */
+
+/* -------- Let's Donate Css Start -------- */
+#donateSection {
+  padding: 130px 0;
+}
+
+.donate {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.donation-amount {
+  margin-bottom: 50px;
+}
+
+.donation-amount ul {
+  margin: 0;
+  list-style: none;
+}
+
+.donation-amount ul li {
+  padding: 35px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #707070;
+  background: #FAFAFA;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.donation-amount ul li.active {
+  background: #FFEEEE;
+  border: 2px solid #d71b4f;
+}
+
+.donation-form {
+  width: 700px;
+}
+
+.donation-form .otherAmount {
+  width: 100%;
+  font-size: 16px;
+  line-height: 28px;
+  color: #969696;
+  padding: 8px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #DADADA;
+}
+
+.donation-form .otherAmount:focus {
+  outline: none;
+}
+
+/* -------- Let's Donate Css End -------- */

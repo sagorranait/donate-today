@@ -9,8 +9,20 @@
   align-items: center;
 }
 
-.donate-bg-white {
+.bg-white {
   background-color: white;
+}
+
+.bg-HippieBlue {
+  background: rgba(79, 157, 166, 0.1);
+}
+
+.bg-Persimmon {
+  background: rgba(255, 89, 89, 0.1);
+}
+
+.bg-MilkPunch {
+  background: #FFF4D6;
 }
 
 .donate-text-center {
@@ -33,7 +45,7 @@
 }
 
 .donate-title-area p {
-  width: 455px;
+  width: 495px;
   margin: 0 auto;
   font-size: 17px;
   line-height: 28px;
@@ -108,7 +120,8 @@
 }
 
 .donation-amount ul li {
-  padding: 35px;
+  width: 135px;
+  height: 123px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -116,6 +129,7 @@
   background: #FAFAFA;
   border-radius: 5px;
   margin-right: 20px;
+  justify-content: center;
 }
 
 .donation-amount ul li.active {
@@ -143,3 +157,38 @@
 }
 
 /* -------- Let's Donate Css End -------- */
+
+/* -------- Donate Plan Css Start -------- */
+.plans {
+  width: 100%;
+  justify-content: center;
+}
+
+.plan {
+  width: 360px;
+  height: 225px;
+  padding: 60px 20px;
+  border-radius: 5px;
+  margin-right: 25px;
+}
+
+.plan img {
+  width: 60px;
+  margin-bottom: 30px;
+}
+
+.plan h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #121212;
+  margin-bottom: 15px;
+}
+
+.plan p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+
+/* -------- Donate Plan Css end -------- */

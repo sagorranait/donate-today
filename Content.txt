@@ -6,10 +6,13 @@ Donate Today Section :
 h2-Let's Donation
 p-Need Food, Pure Water, and Shelter for Sylhet People in Bangladesh.
 
-Donate Plan:
-Shelter for a family
+Donate Plan Section:
+h2-Our Donate Events
+p-You can help lots of people by donating little. See our Plans.
+
 Clean Water
 Medical Help
+Shelter for a family
 
 
 New Section - Our Volunteers

@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="donate" class="donate-bg-white">
+  <div id="donate" class="bg-white">
     <div class="donate-container">
       <section id="donateBanner" class="donate-d-flex">
         <div class="banner-contant donate-text-center">
@@ -19,26 +19,49 @@
           <a class="donate-btn" href="#">Donate Now</a>
         </div>
       </section>
-      <section id="donateSection" class="donate-bg-white donate-top-padding">
+      <section id="donateSection" class="bg-white donate-top-padding">
+        <div class="donate-title-area donate-text-center">
+          <h2>Let's Donation</h2>
+          <p>Need Food, Pure Water, and Shelter for Sylhet People in Bangladesh.</p>
+        </div>
         <div class="donate donate-d-flex">
-          <div class="donate-title-area donate-text-center">
-            <h2>Let's Donation</h2>
-            <p>Need Food, Pure Water, and Shelter for Sylhet People in Bangladesh.</p>
-          </div>
           <div class="donation-amount">
             <ul class="donate-d-flex">
-              <li>$ 10</li>
-              <li class="active">$ 20</li>
-              <li>$ 30</li>
-              <li>$ 50</li>
-              <li>$ 100</li>
+              <li class="donate-d-flex">$ 10</li>
+              <li class="donate-d-flex active">$ 20</li>
+              <li class="donate-d-flex">$ 30</li>
+              <li class="donate-d-flex">$ 50</li>
+              <li class="donate-d-flex">$ 100</li>
             </ul>
           </div>
           <div class="donation-form donate-text-center">
             <form>
-              <input name="otherAmount" class="otherAmount donate-text-center" placeholder="Other Amount (USD)">
+              <input type="text" name="otherAmount" class="otherAmount donate-text-center" placeholder="Other Amount (USD)">
               <button class="donate-btn" type="submit">Donate Now</button>
             </form>
+          </div>
+        </div>
+      </section>
+      <section id="donatePlan" class="bg-white donate-top-padding">
+        <div class="donate-title-area donate-text-center">
+          <h2>Our Donate Events</h2>
+          <p>You can help lots of people by donating little contribution. See our Plans :</p>
+        </div>
+        <div class="plans donate-d-flex">
+          <div class="plan bg-HippieBlue">
+            <img src="./images/icons/clean-water.svg" alt="clean-water-icon">
+            <h3>Clean Water</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+          </div>
+          <div class="plan bg-Persimmon">
+            <img src="./images/icons/medicine.svg" alt="medicine-icon">
+            <h3>Medical Help</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+          </div>
+          <div class="plan bg-MilkPunch">
+            <img src="./images/icons/shelter.png" alt="shelter">
+            <h3>Shelter for a family</h3>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
           </div>
         </div>
       </section>

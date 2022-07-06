@@ -193,6 +193,43 @@
 
 /* -------- Donate Plan Css end -------- */
 
+/* -------- Member Css Start -------- */
+.members {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.member {
+  width: 360px;
+  height: 285px;
+  margin-right: 25px;
+}
+
+.member img {
+  width: 175px;
+  height: 175px;
+  border-radius: 100px;
+  object-fit: cover;
+  border: 3px solid red;
+  padding: 10px;
+}
+
+.member h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #121212;
+  padding: 8px 0;
+}
+
+.member p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+
+/* -------- Member Css End -------- */
+
 /* -------- Updates Css Start -------- */
 .newsletter {
   width: 809px;

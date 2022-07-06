@@ -2,6 +2,10 @@ Banner Text:
 h1 - Let's Change The World With Humanity.
 p - Make your donation today to change the lives of people globally. Even the smallest contributions matter!
 
+Donate Today part : 
+h2-Let's Donation
+p-Need Food, Pure Water, and Shelter for Sylhet People in Bangladesh.
+
 Donate Plan:
 Shelter for a family
 Clean Water

@@ -24,6 +24,10 @@
   background-color: white;
 }
 
+.donate-text-center {
+  text-align: center;
+}
+
 .donate-container {
   width: 1440px;
   margin: 0 auto;
@@ -32,7 +36,7 @@
 /* -------- General Css End -------- */
 
 /* -------- Banner Css Start -------- */
-.banner-contant {
+#donateBanner {
   width: 100%;
   height: 670px;
   background-image: url('./images/banner-bg.png');

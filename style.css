@@ -17,6 +17,10 @@
   text-align: center;
 }
 
+.donate-top-padding {
+  padding-top: 130px;
+}
+
 .donate-title-area {
   width: 100%;
 }
@@ -89,10 +93,6 @@
 /* -------- Banner Css End -------- */
 
 /* -------- Let's Donate Css Start -------- */
-#donateSection {
-  padding: 130px 0;
-}
-
 .donate {
   justify-content: center;
   flex-direction: column;
